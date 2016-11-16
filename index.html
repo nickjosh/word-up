@@ -19,7 +19,7 @@
 <body>
 
     <h1 class="jumbotron">Word Up!</h1>
-
+    <p class="text-muted">Spell as many words as you can, using only these letters.</p>
     <main>
 
         <!--
@@ -41,22 +41,28 @@
                 </div>
             </div>
 
-            <!-- TODO 1
+            <!-- TODO 1(done)
             Make a "New Game" button
             -->
+            <button id="new-game-button" class="btn btn-primary">New Game</button>
+
         </section>
 
         <!-- things that should not show up until the (first) game has started -->
         <section id="game">
 
-            <!-- TODO 4
+            <!-- TODO 4(done)
             Add some instructions so the user knows what to do.
             -->
 
-            <!-- TODO 5
+
+            <!-- TODO 5(done)
             Make an empty container to hold the letter chips.
             Give it an id of "allowed-letters".
             -->
+            <div id="allowed-letters">
+              <!-- allowed letter chips will be injected here -->
+            </div>
 
             <!-- the form via which the user attempts to submit new words -->
             <form id="word-attempt-form">
